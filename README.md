@@ -27,5 +27,5 @@ These are my findings of similiar looking characters:
     vv, w
 
 The final result should in my opinion only consist of Capital Letters and Numbers. Thus the list of letters to create a random string is the following:
-CDEHKMPRSTUWXY012458
+    CDEHKMPRSTUWXY012458
 totaling 20 chars.
