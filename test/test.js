@@ -2,9 +2,6 @@ var vows = require('vows');
 var assert = require('assert');
 var distinguishable = require('../');
 
-console.log(distinguishable.create(8));
-console.log(distinguishable.parse("CNoBPRsR"));
-
 vows.describe('distinguishable').addBatch({
     'when generating passwords': {
         'of negative length': {
@@ -36,6 +33,20 @@ vows.describe('distinguishable').addBatch({
 
             'we get a string with 123 characters': function (topic) {
                 assert.equal(topic.length, 123);
+            }
+        },
+
+        'ASD to 45D': {
+            topic: function () { return distinguishable.parse("ASD"); },
+            'we want to get 45D': function (topic) {
+                assert.equal(topic, "45D")
+            }
+        },
+
+        'asd to 45D': {
+            topic: function () { return distinguishable.parse("asd"); },
+            'we want to get 45D': function (topic) {
+                assert.equal(topic, "45D")
             }
         }
     }
