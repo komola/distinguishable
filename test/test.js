@@ -2,7 +2,8 @@ var vows = require('vows');
 var assert = require('assert');
 var distinguishable = require('../');
 
-console.log(distinguishable.create(12));
+console.log(distinguishable.create(8));
+console.log(distinguishable.parse("CNoBPRsR"));
 
 vows.describe('distinguishable').addBatch({
     'when generating passwords': {

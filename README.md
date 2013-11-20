@@ -1,9 +1,9 @@
 distinguishable
 ===============
 
-Create a string and parse a string to a standard set of chars
+Create a string and parse a string to a standard set of characters
 
-For order references it is important to now have any problems created by users misstyping information e.g. on a wiretransfer reference.
+For order references it is important to not have any problems created by users mistyping information e.g. on a wiretransfer reference.
 Thus I looked at the characters of a european keyboard and tried to find all possible misinterpretations of letters either alone or as groups.
 
 These are my findings of similiar looking characters:
@@ -40,12 +40,15 @@ totaling 20 chars.
 
     var distinguishable = require('distinguishable');
 
-Choose a different password length:
+Choose a different string length:
 
     console.log(distinguishable.create(12));
     // UXYYTHUMU8
 
 Parse string:
+
+    console.log(distinguishable.parse("U4I1o00"));
+    // U411000
 
     console.log(distinguishable.parse("UaILo0ö"));
     // U411000

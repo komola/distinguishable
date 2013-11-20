@@ -5,7 +5,7 @@
   "author": "Thomas Schaaf <schaaf@komola.de>",
   "keywords": ["password", "generator", "pass", "random"],
   "bugs": {
-    "url": "http://github.com/komola/distinguishable-random/issues"
+    "url": "http://github.com/komola/distinguishable/issues"
   },
   "licenses": [
     {
@@ -16,7 +16,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git://github.com/komola/distinguishable-random.git"
+      "url": "git://github.com/komola/distinguishable.git"
     }
   ],
   "main": "lib/distinguishable",
