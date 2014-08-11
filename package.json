@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Distinguishable random string generator",
   "author": "Thomas Schaaf <schaaf@komola.de>",
+  "contributors": [
+    "Sebastian Hoitz <hoitz@komola.de>",
+    "Claas Lange <lange@komola.de>"
+  ],
   "keywords": ["password", "generator", "pass", "random"],
   "bugs": {
     "url": "http://github.com/komola/distinguishable/issues"
