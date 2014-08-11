@@ -1,6 +1,6 @@
 {
   "name": "distinguishable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Distinguishable random string generator",
   "author": "Thomas Schaaf <schaaf@komola.de>",
   "keywords": ["password", "generator", "pass", "random"],
